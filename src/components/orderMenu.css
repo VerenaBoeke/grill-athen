@@ -1,0 +1,106 @@
+ul.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto 0 auto;
+    width: 100%;
+    max-width: 600px;
+}
+
+.infos, ul.menu > li {
+    display: block;
+    padding: 20px;
+    /*box-shadow: 0 0 10px rgba(0,0,0,0.7);*/
+    background-color: #726E60;
+    margin-top: 20px;
+}
+
+.infos {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto 0 auto;
+    color: #fff;
+}
+
+.infos p {
+    margin-top: 0;
+}
+
+ul.menu > li h3 {
+    margin: 0 0 10px 0;
+    font-size: 140%;
+    color: #fff;
+}
+
+ul.menu > li h3 small {
+    display: block;
+    font-weight: normal;
+    font-size: 70%;
+}
+
+ul.menu > li ul.dishes {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.menu > li ul.dishes > li {
+    display: flex;
+    color: #fff;
+    font-weight: bold;
+    padding: 8px 0;
+}
+
+ul.menu > li ul.dishes > li + li {
+    border-top: 1px solid rgba(255,255,255,0.2);
+}
+
+ul.menu > li ul.dishes > li .number {
+    width: 50px;
+    flex-shrink: 0;
+}
+
+ul.menu > li ul.dishes > li .titleHolder {
+    flex-grow: 1;
+}
+
+ul.menu > li ul.dishes > li .titleHolder .title {
+    display: block;
+}
+
+ul.menu > li ul.dishes > li .titleHolder .subTitle {
+    font-weight: normal;
+    font-style: italic;
+    font-size: 90%;
+    margin-right: 10px;
+}
+
+ul.menu > li ul.dishes > li .titleHolder .additives {
+    font-weight: normal;
+    font-style: italic;
+    font-size: 60%;
+}
+
+ul.menu > li ul.dishes > li .price {
+    width: 80px;
+    text-align: right;
+    flex-shrink: 0;
+}
+
+.quickLinks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding: 10px 0 10px 0;
+    margin: 0;
+    color: #726E60;
+    text-decoration: underline;
+}
+
+.quickLinks li {
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 3px;
+}

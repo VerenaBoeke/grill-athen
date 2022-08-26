@@ -1,0 +1,11 @@
+.thumbnails {
+    display: block;
+}
+
+.active-thumbnail {
+    border: #c37131 solid 3px;
+  }
+
+.active, .dot:hover {
+    background-color: #c37131;
+  }
